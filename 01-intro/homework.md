@@ -45,9 +45,9 @@ How many records are in the dataset?
 How many laptop brands are presented in the dataset?
 
 - 12
-- 27
+- 27 -c
 - 28
-- 2160 -c
+- 2160
 
 ### Q4. Missing values
 
