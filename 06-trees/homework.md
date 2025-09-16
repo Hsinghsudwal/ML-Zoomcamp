@@ -1,9 +1,10 @@
-## Homework
+## Homework [DRAFT]
 
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
 
+Solution: [homework.ipynb](homework.ipynb)
 
 ### Dataset
 
@@ -44,7 +45,7 @@ Let's train a decision tree regressor to predict the `jamb_score` variable.
 
 Which feature is used for splitting the data?
 
-* `study_hours_per_week` -c
+* `study_hours_per_week`
 * `attendance_rate`
 * `teacher_quality`
 * `distance_to_school`
@@ -52,17 +53,17 @@ Which feature is used for splitting the data?
 
 ## Question 2
 
-Train a random forest model with these parameters:
+Train a random forest regressor with these parameters:
 
 * `n_estimators=10`
 * `random_state=1`
 * `n_jobs=-1` (optional - to make training faster)
 
 
-What's the RMSE of this model on validation?
+What's the RMSE of this model on the validation data?
 
 * 22.13
-* 42.13 -c
+* 42.13
 * 62.13
 * 82.12
 
@@ -81,8 +82,8 @@ Consider 3 decimal places for calculating the answer.
 
 - 10
 - 25
-- 80 -c
-- 200 
+- 80
+- 200
 
 
 ## Question 4
@@ -98,7 +99,7 @@ Let's select the best `max_depth`:
 
 What's the best `max_depth`, using the mean RMSE?
 
-* 10 -c
+* 10
 * 15
 * 20
 * 25
@@ -128,7 +129,7 @@ For this homework question, we'll find the most important feature:
 
 What's the most important feature (among these 4)? 
 
-* `study_hours_per_week` -c
+* `study_hours_per_week`
 * `attendance_rate`
 * `distance_to_school`
 * `teacher_quality`
@@ -162,7 +163,7 @@ Now change `eta` from `0.3` to `0.1`.
 Which eta leads to the best RMSE score on the validation dataset?
 
 * 0.3
-* 0.1 -c
+* 0.1
 * Both give equal value
 
 ## Submit the results

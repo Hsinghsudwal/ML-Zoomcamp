@@ -1,4 +1,4 @@
-## Homework
+## Homework [DRAFT]
 
 > Note: sometimes your answer doesn't match one of the options exactly. 
 > That's fine. 
@@ -11,14 +11,12 @@
 * Install Pipenv
 * What's the version of pipenv you installed?
 * Use `--version` to find out
--2024.0.1
 
 
 ## Question 2
 
 * Use Pipenv to install Scikit-Learn version 1.5.2
 * What's the first hash for scikit-learn you get in Pipfile.lock?
-# "sha256:03b6158efa3faaf1feea3faa884c840ebd61b6484167c711548fce208ea09445",
 
 > **Note**: you should create an empty folder for homework
 and do it there. 
@@ -71,7 +69,7 @@ What's the probability that this client will get a subscription?
 
 * 0.359
 * 0.559
-* 0.759 -c
+* 0.759
 * 0.959
 
 If you're getting errors when unpickling the files, check their checksum:
@@ -99,7 +97,7 @@ requests.post(url, json=client).json()
 
 What's the probability that this client will get a subscription?
 
-* 0.335 -c
+* 0.335
 * 0.535
 * 0.735
 * 0.935
@@ -123,10 +121,7 @@ FROM python:3.11.5-slim
 WORKDIR /app
 COPY ["model2.bin", "dv.bin", "./"]
 ```
-```
-docker build -t zoomtest .
-docker run -it --rm -p 9696:9696 zoomtest
-```
+
 We already built it and then pushed it to [`svizor/zoomcamp-model:3.11.5-slim`](https://hub.docker.com/r/svizor/zoomcamp-model).
 
 > **Note**: You don't need to build this docker image, it's just for your reference.
@@ -139,7 +134,7 @@ Download the base image `svizor/zoomcamp-model:3.11.5-slim`. You can easily make
 So what's the size of this base image?
 
 * 45 MB
-* 130 MB -c
+* 130 MB
 * 245 MB
 * 330 MB
 
@@ -172,9 +167,6 @@ Let's run your docker container!
 
 After running it, score this client once again:
 
-docker build -t zmodel .
-docker run -it --rm -p 9696:9696 zmodel
-
 ```python
 url = "YOUR_URL"
 client = {"job": "management", "duration": 400, "poutcome": "success"}
@@ -185,7 +177,7 @@ What's the probability that this client will get a subscription now?
 
 * 0.287
 * 0.530
-* 0.757 -c
+* 0.757
 * 0.960
 
 

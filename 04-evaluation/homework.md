@@ -1,9 +1,10 @@
-## Homework
+## Homework [DRAFT]
 
 > Note: sometimes your answer doesn't match one of 
 > the options exactly. That's fine. 
 > Select the option that's closest to your solution.
 
+Solution: [homework.ipynb](homework.ipynb)
 
 In this homework, we will use the Bank Marketing dataset. Download it from [here](https://archive.ics.uci.edu/static/public/222/bank+marketing.zip).
 
@@ -50,7 +51,7 @@ ROC AUC could also be used to evaluate feature importance of numerical variables
 
 Let's do that
 
-* For each numerical variable, use it as score and compute AUC with the `y` variable
+* For each numerical variable, use it as score (aka prediction) and compute the AUC with the `y` variable as ground truth.
 * Use the training dataset for that
 
 
@@ -64,7 +65,7 @@ Which numerical variable (among the following 4) has the highest AUC?
 
 - `balance`
 - `day`
-- `duration` -c
+- `duration`
 - `previous`
 
 ### Question 2: Training the model
@@ -79,7 +80,7 @@ What's the AUC of this model on the validation dataset? (round to 3 digits)
 
 - 0.69
 - 0.79
-- 0.89 c 0.9
+- 0.89
 - 0.99
 
 
@@ -93,7 +94,7 @@ Now let's compute precision and recall for our model.
 
 At which threshold precision and recall curves intersect?
 
-* 0.265 -c
+* 0.265
 * 0.465
 * 0.665
 * 0.865
@@ -114,7 +115,7 @@ Let's compute F1 for all thresholds from 0.0 to 1.0 with increment 0.01
 At which threshold F1 is maximal?
 
 - 0.02
-- 0.22 -c
+- 0.22
 - 0.42
 - 0.62
 
@@ -136,7 +137,7 @@ KFold(n_splits=5, shuffle=True, random_state=1)
 How large is standard deviation of the scores across different folds?
 
 - 0.0001
-- 0.006 -c
+- 0.006
 - 0.06
 - 0.26
 
@@ -154,7 +155,7 @@ Which `C` leads to the best mean score?
 
 - 0.000001
 - 0.001
-- 1 -c
+- 1
 
 If you have ties, select the score with the lowest std. If you still have ties, select the smallest `C`.
 
