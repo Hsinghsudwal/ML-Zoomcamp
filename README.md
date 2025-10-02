@@ -44,6 +44,18 @@ Learn the fundamentals: what ML is, when to use it, and how to approach ML probl
 
 [**Module 2: Machine Learning for Regression**](02-regression/)
 
+Build a car price prediction model while learning linear regression, feature engineering, and regularization.
+
+**Topics:**
+- Linear regression (from scratch and with scikit-learn)
+- Exploratory data analysis
+- Feature engineering
+- Regularization techniques
+- Model validation
+
+* [Homework.md](02-regression/homework.md)
+* [Homework.ipynb](02-regression/homework_02.ipynb)
+
 
 
 
