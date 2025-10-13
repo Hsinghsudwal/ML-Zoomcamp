@@ -1,4 +1,4 @@
-## Homework
+## Homework [DRAFT]
 
 > Note: sometimes your answer doesn't match one of the options exactly. 
 > That's fine. 
@@ -31,7 +31,7 @@ What is the most frequent observation (mode) for the column `industry`?
 - `NA`
 - `technology`
 - `healthcare`
-- `retail` --c
+- `retail`
 
 
 ### Question 2
@@ -44,9 +44,8 @@ What are the two features that have the biggest correlation?
 - `interaction_count` and `lead_score`
 - `number_of_courses_viewed` and `lead_score`
 - `number_of_courses_viewed` and `interaction_count`
-- `annual_income` and `interaction_count` --c
+- `annual_income` and `lead_score`
 
-Only consider the pairs above when answering this question.
 
 ### Split the data
 
@@ -63,7 +62,7 @@ Which of these variables has the biggest mutual information score?
   
 - `industry`
 - `location`
-- `lead_source`  --c
+- `lead_source`
 - `employment_status`
 
 
@@ -79,7 +78,7 @@ Which of these variables has the biggest mutual information score?
 What accuracy did you get?
 
 - 0.64
-- 0.74 --c
+- 0.74
 - 0.84
 - 0.94
 
@@ -95,7 +94,7 @@ Which of following feature has the smallest difference?
 
 - `'industry'`
 - `'employment_status'`
-- `'lead_score'` --c
+- `'lead_score'`
 
 > **Note**: The difference doesn't have to be positive.
 
