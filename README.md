@@ -56,6 +56,18 @@ Build a car price prediction model while learning linear regression, feature eng
 * [Homework.md](02-regression/homework.md)
 * [Homework.ipynb](02-regression/homework_02.ipynb)
 
+[**Module 3: Machine Learning for Classification**](03-classification/)
+
+Create a customer churn prediction system using logistic regression and learn about feature selection.
+
+**Topics:**
+- Logistic regression
+- Feature importance and selection
+- Categorical variable encoding
+- Model interpretation
+
+* [Homework.md](03-classification/homework.md)
+* [Homework.ipynb](03-classification/homework_03.ipynb)
 
 
 
