@@ -69,7 +69,19 @@ Create a customer churn prediction system using logistic regression and learn ab
 * [Homework.md](03-classification/homework.md)
 * [Homework.ipynb](03-classification/homework_03.ipynb)
 
+[**Module 4: Evaluation Metrics for Classification**](04-evaluation/)
 
+Learn how to properly evaluate classification models and handle imbalanced datasets.
+
+**Topics:**
+- Accuracy, precision, recall, F1-score
+- ROC curves and AUC
+- Cross-validation
+- Confusion matrices
+- Class imbalance handling
+
+* [Homework.md](04-evaluation/homework.md)
+* [Homework.ipynb](04-evaluation/homework_04.ipynb)
 
 ## Projects
 
