@@ -40,7 +40,7 @@ AUC can go below 0.5 if the variable is negatively correlated with the target va
 Which numerical variable (among the following 4) has the highest AUC?
 
 - `lead_score`
-- `number_of_courses_viewed`  --
+- `number_of_courses_viewed`
 - `interaction_count`
 - `annual_income`
 
@@ -56,7 +56,7 @@ What's the AUC of this model on the validation dataset? (round to 3 digits)
 
 - 0.32
 - 0.52
-- 0.72 --
+- 0.72
 - 0.92
 
 
@@ -73,7 +73,7 @@ At which threshold precision and recall curves intersect?
 * 0.145
 * 0.345
 * 0.545
-* 0.745 --
+* 0.745
 
 
 ### Question 4: F1 score
@@ -92,7 +92,7 @@ At which threshold F1 is maximal?
 
 - 0.14
 - 0.34
-- 0.54  --
+- 0.54
 - 0.74
 
 
@@ -115,7 +115,7 @@ How large is standard deviation of the scores across different folds?
 - 0.0001
 - 0.006
 - 0.06
-- 0.36  --
+- 0.36
 
 
 ### Question 6: Hyperparameter Tuning
@@ -129,8 +129,8 @@ Now let's use 5-Fold cross-validation to find the best parameter `C`
 
 Which `C` leads to the best mean score?
 
-- 0.000001 
-- 0.001   --
+- 0.000001
+- 0.001
 - 1
 
 If you have ties, select the score with the lowest std. If you still have ties, select the smallest `C`.
