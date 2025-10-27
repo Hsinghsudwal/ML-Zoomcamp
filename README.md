@@ -83,6 +83,20 @@ Learn how to properly evaluate classification models and handle imbalanced datas
 * [Homework.md](04-evaluation/homework.md)
 * [Homework.ipynb](04-evaluation/homework_04.ipynb)
 
+[**Module 5: Deploying Machine Learning Models**](05-deployment/)
+
+Turn your models into web services and deploy them with Docker and cloud platforms.
+
+**Topics:**
+
+- Model serialization with Pickle
+- FastAPI web services
+- Docker containerization
+- Cloud deployment
+
+* [Homework.md](05-deployment/homework.md)
+* [Homework.py](05-deployment/homework_05.ipynb)
+
 ## Projects
 
 [Capstone Project](projects/)
