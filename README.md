@@ -95,7 +95,7 @@ Turn your models into web services and deploy them with Docker and cloud platfor
 - Cloud deployment
 
 * [Homework.md](05-deployment/homework.md)
-* [Homework.py](05-deployment/homework_05.ipynb)
+* [Homework.ipynb](05-deployment/homework_05.ipynb)
 
 ## Projects
 
