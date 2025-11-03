@@ -97,6 +97,35 @@ Turn your models into web services and deploy them with Docker and cloud platfor
 * [Homework.md](05-deployment/homework.md)
 * [Homework.ipynb](05-deployment/homework_05.ipynb)
 
+[**Module 6: Decision Trees & Ensemble Learning**](06-trees/)
+
+Learn tree-based models and ensemble methods for better predictions.
+
+**Topics:**
+- Data cleaning and preparation
+- Decision trees algorithm and parameter tuning
+- Ensemble learning - Random Forest
+- Gradient boosting (XGBoost) - parameter tuning
+- Hyperparameter tuning
+- Feature importance
+
+
+
+
+Ensemble learning and random forest
+Gradient boosting and XGBoost
+XGBoost parameter tuning
+Selecting the best model
+ Summary
+ Explore more
+ Homework
+
+
+* [Homework.md](06-trees/homework.md)
+* [Homework.ipynb](06-trees/homework_06.ipynb)
+
+### Midterm Project
+
 ## Projects
 
 [Capstone Project](projects/)
