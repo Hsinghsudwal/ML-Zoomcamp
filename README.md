@@ -109,18 +109,6 @@ Learn tree-based models and ensemble methods for better predictions.
 - Hyperparameter tuning
 - Feature importance
 
-
-
-
-Ensemble learning and random forest
-Gradient boosting and XGBoost
-XGBoost parameter tuning
-Selecting the best model
- Summary
- Explore more
- Homework
-
-
 * [Homework.md](06-trees/homework.md)
 * [Homework.ipynb](06-trees/homework_06.ipynb)
 
