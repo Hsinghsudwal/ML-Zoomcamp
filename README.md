@@ -114,6 +114,22 @@ Learn tree-based models and ensemble methods for better predictions.
 
 ### Midterm Project
 
+
+[**Module 8: Neural Networks & Deep Learning**](08-deep-learning/)	
+
+Introduction to neural networks using TensorFlow and Keras, including CNNs and transfer learning.	
+
+**Topics:**
+- Neural network fundamentals
+- PyTorch
+- TensorFlow & Keras
+- Convolutional Neural Networks
+- Transfer learning
+- Model optimization
+
+* [Homework.md](08-deep-learning/homework.md)
+* [Homework.ipynb](08-deep-learning/homework_08.ipynb)
+
 ## Projects
 
 [Capstone Project](projects/)
