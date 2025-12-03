@@ -112,7 +112,40 @@ Learn tree-based models and ensemble methods for better predictions.
 * [Homework.md](06-trees/homework.md)
 * [Homework.ipynb](06-trees/homework_06.ipynb)
 
-### Midterm Project
+[**Midterm Project**](07-midterm-project)
+
+Predict hospital readmissions within 30 days using machine learning to identify high-risk patients and improve care outcomes.
+
+**Topics:**
+- Project Overview
+- Problem Statement and impact
+- Dataset: Loading, Validating, EDA
+    - Data Preprocessing: normalization, imputation, encoding, imbalance
+    - Feature Engineering: date-time, flags, age.
+
+- Pipeline:
+    - Train/validation/test split
+    - Modeling: Logistic Regression, Random Forest, XGBoost / LightGBM
+    - Cross-validation
+    - Hyperparameter tuning
+    - Evaluation Metrics: with healthcare+risk prediction, include:
+        - AUROC
+        - Precision/Recall
+        - F1-Score
+        - Sensitivity (Recall) & Specificity
+        - Confusion matrix
+        - Calibration curve
+
+- Deployment: model is served:
+    - FastAPI / Flask
+    - Docker container
+
+- API Endpoints
+- How to Run the Project
+    - Setup environment
+    - Install dependencies
+    - Training instructions
+    - Inference usage
 
 
 [**Module 8: Neural Networks & Deep Learning**](08-deep-learning/)	
@@ -129,6 +162,21 @@ Introduction to neural networks using TensorFlow and Keras, including CNNs and t
 
 * [Homework.md](08-deep-learning/homework.md)
 * [Homework.ipynb](08-deep-learning/homework_08.ipynb)
+
+
+[**Module 9: Serverless**](09-serverless/)
+
+Deep Learning: Deploy deep learning models using serverless technologies like AWS Lambda.
+
+**Topics:**
+
+- Serverless concepts
+- Deploying Scikit-Learn models with AWS Lambda
+- Deploying TensorFlow and PyTorch models with AWS Lambda
+- API Gateway
+
+* [Homework.md](09-serverless/homework.md)
+* [Homework.ipynb](09-serverless/homework_09.ipynb)
 
 ## Projects
 
