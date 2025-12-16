@@ -112,7 +112,7 @@ Learn tree-based models and ensemble methods for better predictions.
 * [Homework.md](06-trees/homework.md)
 * [Homework.ipynb](06-trees/homework_06.ipynb)
 
-[**Midterm Project**](07-midterm-project)
+[**Midterm Project**](https://github.com/Hsinghsudwal/ml_hospital_readmission)
 
 Predict hospital readmissions within 30 days using machine learning to identify high-risk patients and improve care outcomes.
 
@@ -177,6 +177,18 @@ Deep Learning: Deploy deep learning models using serverless technologies like AW
 
 * [Homework.md](09-serverless/homework.md)
 * [Homework.ipynb](09-serverless/homework_09.ipynb)
+
+[**Module 10: Kubernetes**](10-kubernetes/)
+
+Learn to serve ML models at scale using Kubernetes and TensorFlow Serving.	
+
+**Topics:**
+- Kubernetes basics
+- TensorFlow Serving
+- Model deployment and scaling
+- Load balancing
+
+* [Homework.md](10-kubernetes/homework.md)
 
 ## Projects
 
