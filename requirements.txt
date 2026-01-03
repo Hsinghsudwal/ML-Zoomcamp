@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn==1.6.1
+seaborn
+matplotlib
+jupyter
+ipykernel
+flask
+FastAPI
+xgboost
+tensorflow

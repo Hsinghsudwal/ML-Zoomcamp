@@ -1,0 +1,11 @@
+- Car price prediction project
+- Data preparation
+- Exploratory data analysis
+- Linear regression
+- Training linear regression: Normal equation
+- Root mean squared error
+- Using RMSE on validation data
+- Feature engineering: Categorical
+- Regularization
+- Model: Baseline, Tuning and using the model for car price prediction
+- Combine to output results
